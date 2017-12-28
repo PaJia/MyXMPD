@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a110.xiongmao.registerFragment.Mobile_registration">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="海外用户暂不支持手机号注册，您可以使用邮箱注册" />
+
+
+    <EditText
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="账号:请输入手机号"
+        android:id="@+id/sjh" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入图片验证码"
+            android:id="@+id/tpm"
+           />
+ <ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+     android:layout_marginTop="10dp"
+    android:src="@drawable/ic_pulltorefresh_arrow"
+    />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/dxyzm"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入收到的验证码"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:id="@+id/button_yzm"
+            />
+</LinearLayout>
+
+
+
+
+
+    <EditText
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:id="@+id/srmm"
+        />
+
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:textColor="@color/colorPrimary"
+        android:text="我已阅读并同意《央视网网络服务使用协议》"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_zc"
+        android:background="@color/colorPrimary"
+        android:text="注册"
+        />
+
+</LinearLayout>

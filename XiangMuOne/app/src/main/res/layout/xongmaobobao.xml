@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ImageView
+        android:id="@+id/sy_tp"
+        android:layout_width="@dimen/x300"
+        android:layout_height="@dimen/y300"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/liaaa"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y150"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/sy_tp"
+        android:layout_toEndOf="@+id/sy_tp"
+        android:layout_toRightOf="@+id/sy_tp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/aa_aa"
+            android:layout_width="@dimen/x250"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="xxxx"
+            android:textColor="#ff0a5a"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/aa_bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y150"
+        android:layout_alignBottom="@+id/sy_tp"
+        android:layout_toEndOf="@+id/sy_tp"
+        android:layout_toRightOf="@+id/sy_tp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bb_aa"
+            android:layout_width="@dimen/x250"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="xxxx"
+            android:textColor="#ff0a5a"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/bb_bb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
